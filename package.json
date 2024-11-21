@@ -1,7 +1,17 @@
 {
+  "name": "hw1_api",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
   "dependencies": {
     "express": "^4.21.1",
     "systeminformation": "^5.23.5",
     "winston": "^3.17.0"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
